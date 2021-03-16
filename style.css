@@ -1,0 +1,19 @@
+body
+{
+    font-family: "Raleway";
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.header
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
