@@ -714,6 +714,11 @@ li:hover
         align-content: flex-start;
     }
 
+    .hebergements h2
+    {
+        font-size: 1.2em;
+    }
+
     .h-img
     {
         flex-direction: column;
@@ -730,7 +735,6 @@ li:hover
     {
         margin: 10px 0px;
         width: 100%;
-        flex
     }
 
     .h-fig figcaption
@@ -758,8 +762,10 @@ li:hover
         height: 120px;
     }
 
+
     .lesplus-img a
     {
+        color: black;
         width: 100%;
     }
 
