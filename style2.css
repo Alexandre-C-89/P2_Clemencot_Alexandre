@@ -1,6 +1,7 @@
 body{
+    margin: 0px;
     font-family: "Raleway", sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight:normal;
     line-height: 00.8em;
 }
@@ -10,31 +11,33 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .header img
 {
-    width: 8%;
+    object-fit: contain;
+    width: 7%;
+    height: auto;
+    margin: 30px 0 0 30px;
 }
 
 .header a
 {
-    color: #0065fc;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 .header a:hover
 {
-    text-decoration: underline;
-    color: black;
+    text-decoration: none;
 }
 
 .menu
 {
     width: 20%;
     list-style-type: none;
-    margin: 7px 20px 7px 0px;
-    padding: none;
+    margin: 0px 20px 7px 0px;
+    padding-bottom: 10px;
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
@@ -48,7 +51,38 @@ body{
     justify-content: space-around;
 }
 
+.menu2 p
+{
+    margin: 0;
+    padding: 55px 15px 0px 15px;
+    border: 2px solid transparent;
+}
 
+.menu2 p:hover
+ {
+    border-top: 2px solid #0065fc;
+ }
+
+.menu2 a
+{
+    color: black;
+}
+
+.menu2 a:hover
+{
+    color: #0065fc;
+}
+
+.s-mobile
+{
+    color: #0065fc;
+    padding: 55px 15px 0px 15px;
+}
+
+.trouver
+{
+    margin: 30px 30px 0 30px;
+}
 
 .trouver p
 {
@@ -191,12 +225,13 @@ li:hover
 
 .hebergements
 {
+    font-size: 1.3em;
     background-color:#F2F2F2;
     width: 65%;
     height: 100%;
     border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 20px 10px 10px 30px;
     display: flex;
     flex-direction: column;
 }
@@ -205,12 +240,15 @@ li:hover
 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .vign
 {
+    margin: 10px 0 20px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .vign p
@@ -223,21 +261,13 @@ li:hover
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.18);
     background-color: #fff;
     border-radius: 20px;
-    width: 45%;
-    height: 200px;
-    margin: 10px;
+    width: 30%;
+    height: 230px;
     padding: 2px 2px 2px 2px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-
-
-.h-fig
-{
-    width: 20%;
 }
 
 .h-fig a
@@ -258,7 +288,8 @@ li:hover
 
 .h-fig figcaption
 {
-    margin: 8px 8px 2px 8px;
+    color: black;
+    margin: 15px 8px 20px 8px;
 }
 
 .h-fig p
@@ -269,16 +300,19 @@ li:hover
 .star
 {
     color: #0065fc;
-    margin: 5px 0px 5px 6px;
+    margin: 10px 0px 5px 6px;
 }
 
 
-.lesplus {
+.lesplus 
+{
+    font-size: 0.8em;
     line-height: 1.2em;
     background-color: #f2f2f2;
-    width: 25%;
+    width: 27%;
+    height: auto;
     border-radius: 20px ;
-    margin: 20px;
+    margin: 20px 30px 10px 10px;
     padding: 5px 5px 5px 5px;
     display: flex;
     flex-direction: column;
@@ -288,12 +322,14 @@ li:hover
 
 .lesplus p
 {
+    font-size: 1.2em;
     font-weight: bold;
     margin: 0px 0px 10px 0px;
 }
 
 .text-star
 {
+    width: 50%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -331,10 +367,8 @@ li:hover
 .lesplus img 
 {
     margin-right: 5px;
-    width: 50% ;
+    width: 60% ;
     border-radius: 9px 0px 0px 9px;
-    display: flex;
-    flex-direction: column;
 }
 
 .star-color
@@ -344,7 +378,7 @@ li:hover
 
 .lesplus-img
 {
-    width: 90%;
+    width: 80%;
     height: 20%;
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.18);
     border-radius: 10px;
@@ -356,8 +390,6 @@ li:hover
 
 .lesplus-img a
 {
-    width: 100%;
-    height: 100%;
     text-decoration: none;
     display: flex;
 }
@@ -376,8 +408,9 @@ li:hover
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 5% 40% 40%;
-    grid-row-gap: 45px;
-    margin: 5px;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 20px 30px 20px 30px;
 }
 
 .grid a
@@ -410,7 +443,7 @@ li:hover
     font-weight: bold;
     font-size: 1em;
     font-style: bold;
-    margin: 25px 0px 0px 20px;
+    margin: 15px 0px 0px 20px;
 }
 
 .grid p
@@ -540,8 +573,8 @@ li:hover
 {
     .header
     {
-        font-size: 1em;
-        justify-content: flex-start;
+        font-size: .6em;
+        align-items: flex-start;
     }
 
     .header a
@@ -552,13 +585,17 @@ li:hover
     .header img
     {
         width: 30%;
+        margin: 30px 0 0 20px;
+        display: flex;
         position: absolute;
     }
 
     .menu
     {
+        font-size: 1.5em;
         display: flex;
         flex-direction: column-reverse;
+        justify-content: space-between;
         width: 100%;
         margin: 0px;
     }
@@ -566,6 +603,7 @@ li:hover
     .menu2
     {
         width: 100%;
+        height: 20%;
         margin: 20px 0px;
         display: flex;
         flex-direction: row;
@@ -596,11 +634,14 @@ li:hover
 
     .menu a
     {
+        color:#0065fc;
         text-decoration: none;
     }
 
     .menu a:hover
     {
+        color: grey;
+        border-bottom: 2px solid grey;
         text-decoration: none;
     }
 
@@ -665,8 +706,8 @@ li:hover
     .hebergements
     {
         padding: 0px;
-        margin: 0px;
-        width: 100%;
+        margin: 5px;
+        width: 95%;
         background-color: transparent;
         border-radius: 0px;
         flex-direction: column;
@@ -689,11 +730,13 @@ li:hover
     {
         margin: 10px 0px;
         width: 100%;
+        flex
     }
 
     .h-fig figcaption
     {
-        margin: 10px 0px 0px 10px;
+        color: black;
+        margin: 15px 8px 20px 8px;
     }
 
     .star
@@ -712,9 +755,7 @@ li:hover
 
     .lesplus-img
     {
-        width: 90%;
         height: 120px;
-        margin: none;
     }
 
     .lesplus-img a
@@ -722,9 +763,15 @@ li:hover
         width: 100%;
     }
 
+    .lesplus-img img
+    {
+        width: 60%
+    }
+
     .grid
     {
-        margin: 0px;
+        margin: 5px;
+        width: 95%;
         display:flex;
         flex-direction: column;
     }
@@ -815,7 +862,6 @@ li:hover
         padding: 10px;
 
     }
-
     
 
     .lesplus
@@ -853,7 +899,7 @@ li:hover
     }
 }
 
-@media all and (min-width: 1126px) and (max-width: 1500px)
+/* @media all and (min-width: 1126px) and (max-width: 1400px)
 {
     .header img
     {
@@ -944,4 +990,4 @@ li:hover
         
         margin: 7px 0px 0px 20px;
     }
-}
+} */
