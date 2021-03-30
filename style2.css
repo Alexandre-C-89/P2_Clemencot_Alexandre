@@ -451,7 +451,7 @@ li:hover
     font-weight: bold;
     font-size: 1em;
     font-style: bold;
-    margin: 6px 0px 0px 20px;
+    margin: 5px 0px 0px 20px;
 }
 
 .grid h2
@@ -494,7 +494,7 @@ li:hover
 
 .img2 img
 {
-    height: 80%;
+    height: 90%;
 }
 
 .img3
@@ -510,7 +510,7 @@ li:hover
 
 .img3 img
 {
-    height: 80%;
+    height: 90%;
 }
 
 .img4
@@ -526,7 +526,7 @@ li:hover
 
 .img4 img
 {
-    height: 90%;
+    height: 100%;
 }
 
 .img5
@@ -542,7 +542,7 @@ li:hover
 
 .img5 img
 {
-    height: 80%;
+    height: 90%;
 }
 
 
@@ -559,7 +559,7 @@ li:hover
 
 .img6 img
 {
-    height: 80%;
+    height: 90%;
 }
 
 
@@ -1101,7 +1101,7 @@ li:hover
 
     .grid figcaption
     {
-        margin: 10px 10px 10px 20px;
+        margin: 5px 10px 10px 20px;
     }
 
     .img1
@@ -1112,7 +1112,7 @@ li:hover
 
     .img1 img
     {
-        height: 90%;
+        height: 100%;
     }
 
     .img2
@@ -1123,7 +1123,7 @@ li:hover
 
     .img2 img
     {
-        height: 80%;
+        height: 90%;
     }
 
     .img3
@@ -1134,7 +1134,7 @@ li:hover
 
     .img3 img
     {
-        height: 80%;
+        height: 90%;
     }
 
     .img4
@@ -1145,7 +1145,7 @@ li:hover
 
     .img4 img
     {
-        height: 90%;
+        height: 100%;
     }
 
     .img5
@@ -1156,7 +1156,7 @@ li:hover
     
     .img5 img
     {
-        height: 80%;
+        height: 90%;
     }
 
     .img6
@@ -1167,7 +1167,7 @@ li:hover
     
     .img6 img
     {
-        height: 80%;
+        height: 90%;
     }
 
     .footer
