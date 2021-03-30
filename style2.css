@@ -36,7 +36,7 @@ body{
 {
     width: 20%;
     list-style-type: none;
-    margin: 0px 20px 7px 0px;
+    margin: 0px 100px 7px 0px;
     padding-bottom: 10px;
     display: flex;
     align-content: flex-start;
@@ -319,6 +319,8 @@ li:hover
 
 .lesplus span
 {
+    width: 100%;
+    height: 50%;
     font-size: 1.2em;
     margin: 0px 0px 10px 0px;
 }
@@ -388,7 +390,7 @@ li:hover
 .lesplus-img
 {
     width: 80%;
-    height: 80%;
+    height: 75%;
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.18);
     border-radius: 10px;
     padding: 5px;
@@ -400,7 +402,7 @@ li:hover
 .lesplus figcaption
 {
     color: black;
-    margin: 10px 0px 10px 0px;
+    margin: 5px 0px 5x 0px;
     padding: 1px;
 }
 
@@ -864,37 +866,42 @@ li:hover
     .img1 img
     {
         width: 100%;
-        height: 80%;
+        height: 90%;
     }
 
+    .img2
+    {
+        width: 100%;
+        height: 60%;
+    }
     .img2 img
     {
         width: 100%;
-        height: 80%;
+        height: 90%;
     }
 
     .img3 img
     {
         width: 100%;
-        height: 80%;
+        height: 90%;
     }
 
     .img4 img
     {
         width: 100%;
-        height: 80%;
+        height: 90%;
     }
 
     .img5 img
     {
         width: 100%;
-        height: 80%;
+        height: 90%;
     }
     
     .img6 img
     {
         width: 100%;
-        height: 80%;
+        height: 90%%;
     }
 
     .grid div
