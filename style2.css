@@ -422,12 +422,14 @@ li:hover
     text-decoration: none;
 }
 
+
 .grid div
 {
     overflow: hidden;
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.18);
     width: 100%;
     border-radius: 30px 30px 30px 30px;
+    margin-top: 10px;
 }
 
 .grid img
@@ -442,11 +444,13 @@ li:hover
     font-weight: bold;
     font-size: 1em;
     font-style: bold;
-    margin: 15px 0px 0px 20px;
+    margin: 6px 0px 0px 20px;
 }
 
 .grid p
 {
+    width: 50%;
+    height: 80%;
     font-size: 2em;
     font-weight: bold;
     grid-column: 1 / span 4;
@@ -650,7 +654,7 @@ li:hover
         display: inline;
     }
 
-    .research button p
+    .research button span
     {
         display: none;
         margin: 0px;
@@ -964,34 +968,56 @@ li:hover
 
     .title
     {
-        width: 100%;
+        width: 94%;
         font-size: 1em;
         height: 15%;
+    }
+
+    .lesplus figcaption
+    {
+        margin: 2px 2px 2px 2px;
     }
 
     .lesplus img
     {
         object-fit: cover;
-        width: 40%;
+        width: 50%;
+        margin-right: 5px;
     }
 
     .lesplus-img
     {
         margin: 5px;
         padding: 2px;
-        width: 30%;
+        width: 100%;
         height: 85px;
         font-size: .6em;
     }
 
-    .lesplus-img a
+    .lesplus a
+    {
+        width: 30%;
+        height: 25%;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .lesplus-img p
     {
         width: 100%;
+        height: 80%;
+        margin: 2px 2px 2px 2px;
+    }
+
+    .star2
+    {
+
     }
 
     .text-star
     {
         padding: 5px;
+        line-height: 1.8em;
     }
 
     .grid
@@ -1003,6 +1029,7 @@ li:hover
         grid-template-rows: 50px 250px 250px 250px 250px;
         grid-gap: 20px;
         margin-left: 40px;
+        font-size: 1.1em;
     }
 
     .grid div
@@ -1013,8 +1040,7 @@ li:hover
 
     .grid figcaption
     {
-        font-size: 1em;
-        margin: 20px 10px 10px 20px;
+        margin: 10px 10px 10px 20px;
     }
 
     .img1
