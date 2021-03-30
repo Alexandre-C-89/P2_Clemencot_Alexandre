@@ -447,7 +447,7 @@ li:hover
     margin: 6px 0px 0px 20px;
 }
 
-.grid p
+.grid h2
 {
     width: 50%;
     height: 80%;
@@ -720,6 +720,11 @@ li:hover
         align-content: flex-start;
     }
 
+    .vign a
+    {
+        width: 100%;
+    }
+
     .h-fig
     {
         margin: 10px 0px;
@@ -729,16 +734,17 @@ li:hover
     .h-fig figcaption
     {
         color: black;
-        margin: 15px 8px 20px 8px;
+        margin: 10px 8px 10px 8px;
     }
 
     .star
     {
-        margin: 10px 0px 0px 10px;
+        margin: 10px 0px 0px 0px;
     }
 
     .lesplus
     {
+        font-size: 1em;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -749,29 +755,44 @@ li:hover
 
     .title
     {
-        width: 95%;
-        font-size: 1.3em;
+        width: 85%;
+        font-size: 1em;
         line-height: 0;
+    }
+
+    .lesplus a
+    {
+        width: 90%;
+    }
+
+    .lesplus p
+    {
+        margin: 0px 0px 5px 0px;
     }
 
     .lesplus-img
     {
-        max-width: 400px;
+        width: 100%;
         height: 110px;
         padding: 5px;
         margin: 5px;
     }
 
+    .lesplus figcaption
+    {
+        margin: 2px 2px 2px 2px;
+    }
 
     .lesplus-img a
     {
         color: black;
-        width: 100%;
+        width: 80%;
     }
 
     .lesplus-img img
     {
         object-fit: cover;
+        margin-right: 10px;
     }
 
     .grid
@@ -788,7 +809,7 @@ li:hover
         font-weight: bold;
         font-size: 1em;
         font-style: bold;
-        margin: 13px 0px 0px 20px;
+        margin: 2px 0px 0px 20px;
     }
 
     .grid div
@@ -796,8 +817,10 @@ li:hover
         width: 100%;
     }
 
-    .grid p
+    .grid h2
     {
+        width: 100%;
+        font-size: 1.8em;
         margin: 20px 0px 0px 0px;
     }
 
@@ -949,7 +972,7 @@ li:hover
 
     .h-fig figcaption
     {
-        margin: 5px;
+        margin: 10px;
     }
 
     .h-fig img
