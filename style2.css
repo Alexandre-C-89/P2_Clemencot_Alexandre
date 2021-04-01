@@ -300,10 +300,9 @@ li:hover
     margin: 5px 0px 0px 0px;
 }
 
-
 .lesplus 
 {
-    font-style: lighter;
+    font-style: normal;
     font-size: 1em;
     background-color: #f2f2f2;
     width: 27%;
@@ -401,7 +400,7 @@ li:hover
 .lesplus figcaption
 {
     color: black;
-    margin: 5px 0px 5x 0px;
+    margin: 5px 0px 5px 0px;
     padding: 1px;
 }
 
@@ -448,7 +447,7 @@ li:hover
 .grid figcaption
 {
     color: black;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1em;
     font-style: bold;
     margin: 5px 0px 0px 20px;
@@ -849,10 +848,10 @@ li:hover
 
     .grid figcaption
     {
-        font-weight: bold;
+        font-weight: normal;
         font-size: 1em;
-        font-style: bold;
-        margin: 2px 0px 0px 20px;
+        font-style: normal;
+        margin: 2px 0px 5px 20px;
     }
 
     .grid div
